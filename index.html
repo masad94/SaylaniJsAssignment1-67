@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignments 1 to 67</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h1>Chapter 43-48</h1>
+        <a href="javascript:void(0)" onclick="showAlert()">Click Me! (Task 01)</a>
+
+        <div class="task02">
+            <h4>Task 02</h4>
+            <img onclick="showImgAlert()" src="https://www.whatmobile.com.pk/admin/images/Tecno/TecnoCamon15Pro-b.jpg"
+                alt="TecnoCamon15Pro-b">
+            <img onclick="showImgAlert()"
+                src="https://www.whatmobile.com.pk/admin/images/Qmobile/QmobileRocketLite-b.jpg"
+                alt="QmobileRocketLite-b">
+            <img onclick="showImgAlert()" src="https://www.whatmobile.com.pk/admin/images/Xiaomi/XiaomiMi9-b.jpg"
+                alt="XiaomiMi9-b">
+        </div>
+
+        <div class="task03">
+            <h4>Task 03</h4>
+            <table id="studentRecords">
+                <tr>
+                    <th>Index</th>
+                    <th>Name</th>
+                    <th>class</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Jhon</td>
+                    <td>10</td>
+                    <td><Button onclick="deleteRecord(1)">Delete</Button></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Doe</td>
+                    <td>9</td>
+                    <td><Button onclick="deleteRecord(2)">Delete</Button></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Mark</td>
+                    <td>10</td>
+                    <td><Button onclick="deleteRecord(3)">Delete</Button></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>James</td>
+                    <td>8</td>
+                    <td><Button onclick="deleteRecord(4)">Delete</Button></td>
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <h4>Task 04</h4>
+            <img id="chngImg" onmouseover="changeImg(1)" onmouseout="changeImg(0)"
+                src="https://www.whatmobile.com.pk/admin/images/Tecno/TecnoCamon15Pro-b.jpg" alt="TecnoCamon15Pro-b">
+        </div>
+
+        <div>
+            <h4>Task 05</h4>
+            <h5>Counter</h6>
+                <p id="counter">0</p>
+                <button onclick="increaseCounter()">Increase</button>
+                <button onclick="decreaseCounter()">Decrease</button>
+        </div>
+    </div>
+
+    <div>
+        <h1>Chapter 49-52</h1>
+
+        <div>
+            <h4>Task 01</h4>
+            <form action="javascript:void(0)" onsubmit="displayData()">
+                <label for="fname">First Name</label>
+                <input id="fname" name="fname" type="text">
+                <br>
+                <label for="lname">Last Name</label>
+                <input id="lname" type="text" name="lname">
+                <br>
+                <label for="email">Email</label>
+                <input id="email" type="email" name="email">
+                <br>
+                <input type="submit">
+            </form>
+            <div>
+                <p id="fnameP"></p>
+                <p id="lnameP"></p>
+                <p id="emailP"></p>
+            </div>
+        </div>
+
+        <div>
+            <h4>Task 02</h4>
+            <h5>Samsung Glaxy S20</h5>
+            <p id="read">Samsung Galaxy S20 is powered by a 2GHz octa-core Samsung Exynos 990 processor <a
+                    href="javascript:void(0)" onclick="readMore()">Read More</a></p>
+        </div>
+
+        <div>
+            <h4>Task 03</h4>
+            <p>Enter Student Record</p>
+            <form action="javascript:void(0)" onsubmit="displayTable()">
+                <label for="name">Name</label>
+                <input id="name" type="text" name="name">
+                <br>
+                <label for="class">Class</label>
+                <input id="class" type="text" name="class">
+                <br>
+                <input type="submit">
+            </form>
+            <table id="tableData">
+                <tr>
+                    <th>Name</th>
+                    <th>Class</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </table>
+
+            <div id="overlay">
+                <div id="text">
+                    <form action="javascript:void(0)" onsubmit="updateTable()">
+                        <label for="uname">Name</label>
+                        <input id="uname" type="text" name="uname">
+                        <br>
+                        <label for="uclass">Class</label>
+                        <input id="uclass" type="text" name="uclass">
+                        <br>
+                        <input type="submit" value="Update">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div>
+        <h1>Chapter 52-57</h1>
+        <div id="modal" class="modal">
+            <span class="close" id="modal-close" onclick="onClosedImagModal()">&times;</span>
+            <img class="modal-content" id="modal-img">
+        </div>
+        
+        <div>
+            <h4>Task 01</h4>
+        </div>
+        
+        <div id="images">
+        </div>
+    
+        <div>
+            <h4>Task 02</h4>
+            <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem officia, autem molestias dolorum, animi cum consequuntur, quaerat expedita accusamus magni pariatur cumque sapiente quo! Repellendus accusamus labore iste ab natus?</p>
+            <button onclick="zoomIn()">+</button>
+            <button onclick="zoomOut()">-</button>
+        </div>
+    </div>
+
+    <div>
+        <h1>Chapter 58-67</h1>
+        <div>
+            <h4>Task 01 and Task 02</h4>
+            <div>
+                <h1> DOM </h1>
+                <div id="form-content" class="content">
+                    <label for="first-name">First Name</label>
+                    <input type="text" id="first-name" />
+                    <label for="last-name">Last Name</label>
+                    <input type="text" id="last-name" />
+                    <label for="email-id">Email</label>
+                    <input type="text" id="email-id" />
+                </div>
+                <div id="main-content" class="content">
+                    <p class="render"> First Name : Alex</p>
+                    <p class="render" id="lastName">Last Name: Bank</p>
+                    <p class="render"> Email : alexbank@example.com</p>
+                    <p class="render"> Country : Pakistan </p>
+                    <p class="render"> contact : +92 300 1234567</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
